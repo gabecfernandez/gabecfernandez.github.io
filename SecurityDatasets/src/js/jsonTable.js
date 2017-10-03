@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var url = "/datasets.json";
+    var url = "./datasets.json";
     $.getJSON(url,
     function (json) {
       console.log(json);
